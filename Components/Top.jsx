@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function Top() {
+    const Top = () =>  {
     const [data, setdata] = useState([]);
     const [loading, setloading] = useState(true);
     useEffect(()=>{
